@@ -8,7 +8,7 @@ Good for communication between microservices and native mobile clients.
 
 Does not natively works with browsers --> we need to use extra GRPC gateway.
 
-![types-of-rpcs](./assets/types-of-rpc.png)
+![types-of-rpcs](../assets/types-of-rpc.png))
 
 # Protocol Buffer
 
@@ -21,13 +21,13 @@ The serialization process requires that you first specify the structure of your 
 Protocol Buffers compiler can then read the `.proto` file, and compile your data structure into a class in the language of your choice, which you may use to manipulate your data programmatically.
 
 
-![.proto file](./assets/proto-file.png)
+![.proto file](../assets/proto-file.png)
 
 gRPC compile `.proto` files to server-side and client-side artifacts for gRPC API services, in additional to the data classes.
 
 To use the plugin, you need to add service definitions to your .proto files, which describes your gRPC APIs. Each gRPC API takes one Protocol Buffers message type as input (request), and another Protocol Buffers message type as output (response).
 
-![proto-complier](./assets/proto-compiler.png)
+![proto-complier](../assets/proto-compiler.png)
 
 |                                     | HTTP RESTful API       | gRPC API                               |
 |-------------------------------------|------------------------|----------------------------------------|
@@ -55,7 +55,7 @@ Essentially, an API call to a method (endpoint) is nothing more than an `input (
 
 In an gRPC API service, inputs (requests) and outputs (responses) are Protocol Buffers messages of specific types, defined in one or more `.proto` files using Protocol Buffers language. Service definitions in the `.proto` files associate the input message type with the output message type, and Protocol Buffers compiler compiles the `.proto` file(s) into code artifacts. You may then use these artifacts to build your API service and its client libraries.
 
-![service-definition](./assets/service-definition.png)
+![service-definition](../assets/service-definition.png)
 
 
 ## Resources and their fields

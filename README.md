@@ -4,7 +4,7 @@ This is a learning project focused on gRPC functionality.
 
 # Getting Started
 
-1. Start server:
+1. Start the server:
 
 ```bash
 python3 server.py 
@@ -18,7 +18,7 @@ API server started. Listening at 0.0.0.0:8080.
 
 2. Start the client:
 
-The client fetches the service endpoint specified in `example.proto` file, and outputs
+The client fetches the service endpoint specified in `example.proto` file, and outputs `User` and `Status` objects.
 
 ```bash
 python3 client.py  
